@@ -37,8 +37,8 @@
 </head>
 <body>
     <div>
-        <h1>  Doing it easy!  </h1>
-        <p>   Mini Invoices </p>
+        <h1>   Mini Invoices </h1>
+        <p>  Doing it easy !  </p>
         @if (Route::has('login'))
             <div>
                 <a href="{{ route('login') }}" class="btn"> login</a>
