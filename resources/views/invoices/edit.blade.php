@@ -9,7 +9,7 @@
         @method('PUT')
 
         <div class="mb-3">
-            <label>Customer Name</label>
+            <label>Invoice Name</label>
             <input type="text" name="invoice_name" value="{{ $invoice->invoice_name }}" class="form-control" required>
         </div>
 
